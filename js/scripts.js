@@ -1,5 +1,5 @@
-var withMenuItemsClass = document.getElementsByClassName('button'); 
-	for (k=0; k<length; k++) {
-		withMenuItemsClass.innerText = "";
-		}
-console.log (withMenuItemsClass);
+var x = document.getElementsByClassName("button");
+var i;
+for (i = 0; i < x.length; i++) {
+    alert(x[0 +i].innerText);
+   }
